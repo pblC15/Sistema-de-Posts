@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #b3c6ff;
+}
+
+.search {
+    width: 30%;
+}
+
+.search form {
+    margin-top: 20px;
+}
+
+.button-search {
+    display: flex;
+    flex-direction: row;
+}
+
+.btm-search {
+    border-radius: 5px;
+    margin-left: -5px;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+#idSearch {
+    width: 60%;
+}
+
+.divFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo a p {
+    font-size: 39px;
+    margin-top: 10px !important;
+}
+
+.logo a {
+    color: white;
+}
+
+.logo a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    width: 40%;
+}
+
+.menu ul {
+    list-style: none;
+    margin-top: 20px !important;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 19px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.menu ul li a {
+    color: black;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+/*Dropdown*/
+
+.tituloEdrop {
+    display: flex;
+    flex-direction: row;
+}
+
+.divTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.divTitle h3 {
+    width: 90%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.divTitle h3:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+.littleBall {
+    float: left;
+    margin-right: 5px;
+    width: 3px;
+    height: 3px;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    background-color: #ccc;
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.conteudo h6 {
+    text-align: left;
+}
+
+h1 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.conteudo p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+
+/*Formulario*/
+
+.divForm {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 15px 1px #ccc;
+}
+
+.erro {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+}
+
+.form-group label {
+    font-size: 25px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+
+/*Botão excluir*/
+
+.btm-Excluir {
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/*Paginação*/
+
+.paginate {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+svg {
+    display: none;
+}
